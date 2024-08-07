@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+body {
+  font-family: 'PT Serif', serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url(images/pexels-septimiu-lupea-669015.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  padding-left:200px;
+  padding-top: 150px;
+  font-size: 50px;
+}
+
+form {
+  max-width: 900px;
+  padding-left: 700px;
+  margin: 20px auto;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 21px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+input[type="submit"]:hover {
+  background-color: #f1ff29;
+  color: black;
+}
